@@ -1,6 +1,9 @@
+import Details from "../components/Details";
 import Footer from "../components/Footers/Footer";
+import Intro from "../components/Intro";
 import MobileNavbar from "../components/Navbars/MobileNavbar";
 import Navbar from "../components/Navbars/Navbar";
+import Service from "../components/Service";
 
 export default function Home() {
   return (
@@ -15,6 +18,9 @@ export default function Home() {
 
     <Navbar />
     <MobileNavbar />
+    <Intro />
+    <Details/>
+    <Service />
     <Footer/>
     </div>
     
