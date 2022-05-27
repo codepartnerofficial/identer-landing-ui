@@ -12,7 +12,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div id="footer_font" className="p-8 text-white">
+      <div className="p-8 text-white roboto-font">
         <div className="flex justify-start xl:justify-between flex-wrap gap-4 sm:gap-16">
           {/* learn */}
           <div className="my-8">

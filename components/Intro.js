@@ -11,7 +11,7 @@ const Intro = () => {
           <h1 id="text-gradient" className="text-7xl font-semibold mt-2">
             IDENTER
           </h1>
-          <p className="text-gray-400 max-w-xs text-sm my-12 leading-6"  >
+          <p className="text-gray-400 max-w-xs text-sm my-12 leading-8"  >
             Buruea of Blockchain Innovation (BIB) Interoperable Anonymity,
             Scalable Transparency Protecting Digital Identity.
           </p>
