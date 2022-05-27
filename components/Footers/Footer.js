@@ -111,6 +111,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <p className="text-blue-200 text-center">Identer Technology is a community build  blockchain for the people and by the people.</p>
       </div>
     </>
   );

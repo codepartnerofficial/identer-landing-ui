@@ -1,10 +1,12 @@
 import Details from "../components/Details";
 import DigitalEconomy from "../components/DigitalEconomy";
 import DigitalIdentity from "../components/DigitalIdentity";
+import BottomFooter from "../components/Footers/BottomFooter";
 import Footer from "../components/Footers/Footer";
 import Intro from "../components/Intro";
 import MobileNavbar from "../components/Navbars/MobileNavbar";
 import Navbar from "../components/Navbars/Navbar";
+import PartOfSolution from "../components/PartOfSolution";
 import Service from "../components/Service";
 
 export default function Home() {
@@ -26,7 +28,9 @@ export default function Home() {
         <Service />
         <DigitalIdentity />
         <DigitalEconomy />
+        <PartOfSolution />
         <Footer />
+        <BottomFooter/>
       </div>
     </>
   );
