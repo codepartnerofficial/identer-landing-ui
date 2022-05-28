@@ -3,7 +3,7 @@ import React from "react";
 const Details = () => {
   return (
     <>
-      <div id="details-container" className="p-16 flex justify-around flex-wrap gap-4">
+      <div id="blur-container" className="p-16 flex justify-around flex-wrap gap-4">
         <div>
           <div className="w-56 h-16 border-2 rounded-lg border-white shadow-xl"></div>
           <h3

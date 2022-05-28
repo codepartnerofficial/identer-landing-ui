@@ -3,6 +3,8 @@ import DigitalEconomy from "../components/DigitalEconomy";
 import DigitalIdentity from "../components/DigitalIdentity";
 import BottomFooter from "../components/Footers/BottomFooter";
 import Footer from "../components/Footers/Footer";
+import IdenterProtocol from "../components/IdenterProtocol";
+import InternetIdeas from "../components/InternetIdeas";
 import Intro from "../components/Intro";
 import MobileNavbar from "../components/Navbars/MobileNavbar";
 import Navbar from "../components/Navbars/Navbar";
@@ -27,10 +29,12 @@ export default function Home() {
         <Details />
         <Service />
         <DigitalIdentity />
+        <InternetIdeas />
         <DigitalEconomy />
+        <IdenterProtocol />
         <PartOfSolution />
         <Footer />
-        <BottomFooter/>
+        <BottomFooter />
       </div>
     </>
   );

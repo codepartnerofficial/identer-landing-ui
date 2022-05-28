@@ -5,7 +5,7 @@ const PartOfSolution = () => {
     <>
       <div>
         <div
-          id="details-container"
+          id="blur-container"
           className="text-center p-4 sm:p-16 text-2xl sm:text-6xl font-semibold"
         >
           <h1 className="solution-text ">#Be-Part-of-the-Solution!</h1>

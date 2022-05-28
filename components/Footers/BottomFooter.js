@@ -5,7 +5,7 @@ const BottomFooter = () => {
     <>
       <div>
         <div
-          id="details-container"
+          id="blur-container"
           className=" p-4 sm:p-16 roboto-font flex flex-col md:flex-row justify-between items-center gap-4 text-white"
         >
           <h1>POWERED BY:IDENTER.ORG</h1>
