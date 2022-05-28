@@ -40,7 +40,7 @@ const Connect = () => {
           <p className="text-gray-400 text-base my-2 max-w-2xl ">
             Connect with us for more Updates and Latest News.
           </p>
-          <div className=" mt-8 w-full max-w-2xl flex items-center justify-between  ">
+          <div className=" mt-8 w-full max-w-2xl flex items-center justify-between gap-2 ">
             {socials.map((social, i) => (
               <div key={i}>
                 <Link href={`${social.link}`}>

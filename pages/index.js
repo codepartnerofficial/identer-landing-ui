@@ -1,5 +1,6 @@
 import Community from "../components/Community";
 import Connect from "../components/Connect";
+import CoreDao from "../components/CoreDao";
 import Details from "../components/Details";
 import DigitalEconomy from "../components/DigitalEconomy";
 import DigitalIdentity from "../components/DigitalIdentity";
@@ -35,6 +36,7 @@ export default function Home() {
         <DigitalEconomy />
         <IdenterProtocol />
         <PartOfSolution />
+        <CoreDao />
         <Community />
         <Connect/>
         <Footer />
