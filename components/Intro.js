@@ -21,7 +21,7 @@ const Intro = () => {
           </div>
         </div>
         <div>
-          <img src="/images/lock.png" alt="lock" className="w-full max-w-md" />
+          <img src="/images/lock2.webp" alt="lock" className="w-full max-w-md" />
         </div>
       </div>
     </>
