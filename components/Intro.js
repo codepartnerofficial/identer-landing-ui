@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <>
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center mx-12 my-24 lg:mx-24 lg:my-52">
+      <div data-aos="zoom-in" className="flex flex-col-reverse md:flex-row justify-between items-center mx-12 my-24 lg:mx-24 lg:my-52">
         <div>
           <h3 id="text-gradient" className="text-4xl font-light mt-8">
             The Future is

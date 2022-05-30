@@ -12,7 +12,7 @@ const InternetIdeas = () => {
               className="w-full max-w-lg"
             />
           </div>
-          <div>
+          <div data-aos="fade-left" >
             <h3 className="text-4xl font-semibold mt-8 text-white">
               The Internet of Ideas
             </h3>

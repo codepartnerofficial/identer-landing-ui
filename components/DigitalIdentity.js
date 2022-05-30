@@ -5,14 +5,14 @@ const DigitalIdentity = () => {
     <>
       <div>
         <div className="flex flex-col md:flex-row justify-between items-center m-4 sm:m-12 border border-gray-400 rounded-lg  card-shadow-blur p-12 py-24">
-          <div>
+          <div >
             <img
               src="/images/digital_identity.png"
               alt="service"
               className="w-full max-w-lg"
             />
           </div>
-          <div>
+          <div data-aos="fade-left" >
             <h3 className="text-4xl font-semibold mt-8 text-white">
               Secure Your Digital Identity
             </h3>

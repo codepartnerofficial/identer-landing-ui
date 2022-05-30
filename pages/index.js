@@ -27,6 +27,7 @@ export default function Home() {
           // backgroundRepeat: "no-repeat",
           height: "100%",
         }}
+        className="overflow-hidden "
         
       >
         <Navbar />

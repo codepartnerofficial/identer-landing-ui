@@ -10,7 +10,7 @@ const DigitalEconomy = () => {
         }}
         className="flex flex-col-reverse md:flex-row justify-between items-center px-12 py-24 "
       >
-        <div>
+        <div data-aos="fade-right" >
           <h3 className="text-4xl font-semibold mt-8 text-white">
             Realigning-the-Digital-Economy
           </h3>

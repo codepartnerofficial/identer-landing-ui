@@ -39,8 +39,8 @@ const IdenterProtocol = () => {
             </p>
           </div>
 
-          <div className=" mt-12 md:mt-24 flex flex-col items-center gap-8 md:gap-0 md:flex-row md:items-start justify-between ">
-            <div>
+          <div  className=" mt-12 md:mt-24 flex flex-col items-center gap-8 md:gap-0 md:flex-row md:items-start justify-between ">
+            <div data-aos="fade-right">
               <h1 className="font-semibold">Architechture</h1>
               <ul className="list-disc  text-xs p-6">
                 {Architechtures.map((Architechture, i) => (
@@ -62,7 +62,7 @@ const IdenterProtocol = () => {
                 <img src="/images/projector.png" alt="projector" className="" />
               </div>
             </div>
-            <div>
+            <div data-aos="fade-left">
               <h1 className="font-semibold">Blockchain Automation</h1>
               <ul className="list-disc  text-xs p-6">
                 {Automations.map((Automation, i) => (

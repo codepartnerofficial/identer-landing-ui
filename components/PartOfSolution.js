@@ -10,7 +10,7 @@ const PartOfSolution = () => {
         >
           <h1 className="solution-text ">#Be-Part-of-the-Solution!</h1>
         </div>
-        <div className="flex justify-center items-center my-16">
+        <div data-aos="zoom-in" className="flex justify-center items-center my-16">
           <img
             src="/images/identity_safe.png"
             alt="service"
