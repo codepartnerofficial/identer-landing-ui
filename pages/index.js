@@ -20,7 +20,7 @@ export default function Home() {
       <div
         style={{
           // backgroundImage: "url(" + `/images/langingPageBg.png` + ")",
-          backgroundImage: "url(" + `/images/identerbg4.webp` + ")",
+          backgroundImage: "url(" + `/images/identerbg3.webp` + ")",
           // backgroundImage: "url(" + `/images/identerbg2.gif` + ")",
           backgroundPosition: "left top",
           backgroundSize: "100%",
