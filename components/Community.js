@@ -4,7 +4,7 @@ const Community = () => {
   return (
     <>
       <div>
-        <div className="flex flex-col items-center text-center m-4 sm:m-12 border border-gray-400 rounded-lg card-shadow-blur p-6 py-12">
+        <div className="flex flex-col items-center text-center m-4 sm:m-12 border border-gray-400 rounded-lg  card-shadow-blur p-6 py-12">
           <h1 className="text-white text-3xl my-4 max-w-2xl font-medium ">
             Join our Community!
           </h1>

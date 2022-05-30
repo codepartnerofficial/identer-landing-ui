@@ -4,7 +4,7 @@ const InternetIdeas = () => {
   return (
     <>
       <div>
-        <div className="flex flex-col md:flex-row justify-between items-center m-4 sm:m-12 border border-gray-400 rounded-lg card-shadow-blur p-12 py-24">
+        <div className="flex flex-col md:flex-row justify-between items-center m-4 sm:m-12 border border-gray-400 rounded-lg  card-shadow-blur p-12 py-24">
           <div>
             <img
               src="/images/hacker.png"
@@ -33,13 +33,13 @@ const InternetIdeas = () => {
               </p>
             </div>
             <div className="max-w-xl flex justify-around items-center flex-wrap xl:gap-8">
-              <button className="w-64 my-2 bg-blue-200 rounded p-2 font-semibold px-4">
+              <button className="w-64 my-2 bg-blue-200 rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
                 Patent Your Idea
               </button>
-              <button className="w-64 my-2 bg-blue-200 rounded p-2 font-semibold px-4">
+              <button className="w-64 my-2 bg-blue-200 rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
                 Start Building
               </button>
-              <button className="w-64 my-2 bg-white rounded p-2 font-semibold px-4 ">
+              <button className="w-64 my-2 bg-white rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out ">
                 Developer Portal
               </button>
             </div>

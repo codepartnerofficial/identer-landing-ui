@@ -4,7 +4,7 @@ const DigitalIdentity = () => {
   return (
     <>
       <div>
-        <div className="flex flex-col md:flex-row justify-between items-center m-4 sm:m-12 border border-gray-400 rounded-lg card-shadow-blur p-12 py-24">
+        <div className="flex flex-col md:flex-row justify-between items-center m-4 sm:m-12 border border-gray-400 rounded-lg  card-shadow-blur p-12 py-24">
           <div>
             <img
               src="/images/digital_identity.png"
@@ -79,10 +79,10 @@ const DigitalIdentity = () => {
                 <p className="my-12 text-gray-400 text-xs max-w-lg leading-5" >Know How:  Recording of Digital Identity is handle by UBS Records (Decentralized Application of Identer Blockchain. To save your digital identification, kindly visit UBS Records website. </p>
             </div>
             <div>
-              <button className="w-64 my-2 bg-white rounded p-2 font-semibold px-4 sm:mr-16">
+              <button className="w-64 my-2 bg-white rounded-lg p-2 font-semibold px-4 sm:mr-16 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
                 More about UBS Records
               </button>
-              <button className="w-64 my-2 bg-blue-200 rounded p-2 font-semibold px-4">
+              <button className="w-64 my-2 bg-blue-200 rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
                 Get UBS Token
               </button>
             </div>

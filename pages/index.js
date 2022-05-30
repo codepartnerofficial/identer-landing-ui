@@ -19,12 +19,15 @@ export default function Home() {
     <>
       <div
         style={{
-          backgroundImage: "url(" + `/images/langingPageBg.png` + ")",
+          // backgroundImage: "url(" + `/images/langingPageBg.png` + ")",
+          backgroundImage: "url(" + `/images/identerbg3.webp` + ")",
+          // backgroundImage: "url(" + `/images/identerbg2.gif` + ")",
           backgroundPosition: "left top",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
+          backgroundSize: "100%",
+          // backgroundRepeat: "no-repeat",
           height: "100%",
         }}
+        
       >
         <Navbar />
         <MobileNavbar />

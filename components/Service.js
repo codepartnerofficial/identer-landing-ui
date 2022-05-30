@@ -4,7 +4,7 @@ const Service = () => {
   return (
     <>
       <div>
-        <div className="flex flex-col-reverse md:flex-row justify-between items-center m-4 sm:m-12 border border-gray-400 rounded-lg card-shadow-blur p-12 py-24">
+        <div className="flex flex-col-reverse md:flex-row justify-between items-center m-4 sm:m-12 border border-gray-400 rounded-lg  card-shadow-blur p-12 py-24">
           <div>
             <h3 className="text-4xl font-semibold mt-8 text-white">
               Identer-as-a-Service
@@ -27,10 +27,10 @@ const Service = () => {
               </p>
             </div>
             <div>
-              <button className="w-56 my-2 bg-white rounded p-2 font-semibold px-4 sm:mr-16">
+              <button className="w-56 my-2 bg-white rounded-lg p-2 font-semibold px-4 sm:mr-16 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
                 What is Identer?
               </button>
-              <button className="w-56 my-2 bg-blue-200 rounded p-2 font-semibold px-4">
+              <button className="w-56 my-2 bg-blue-200 rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
                 Get IDT
               </button>
             </div>

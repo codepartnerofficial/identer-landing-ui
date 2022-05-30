@@ -13,7 +13,7 @@ const BottomFooter = () => {
             © Identer Blockchain Technology: 2022 Legal Disclaimer- Privacy
             Statement
           </p>
-          <button className=" my-2 bg-white text-black rounded p-2 font-semibold px-8 sm:mr-16">
+          <button className=" my-2 bg-white text-black rounded-lg p-2 font-semibold px-8 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
             Connect Wallet
           </button>
         </div>

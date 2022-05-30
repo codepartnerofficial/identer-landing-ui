@@ -28,7 +28,7 @@ const DigitalEconomy = () => {
             </h5>
           </div>
           <div>
-            <button className="w-64 my-2 bg-white rounded p-2 font-semibold px-4 ">
+            <button className="w-64 my-2 bg-white rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
               More about Enterprise
             </button>
           </div>

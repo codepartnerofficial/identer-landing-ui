@@ -16,8 +16,8 @@ const Intro = () => {
             Scalable Transparency Protecting Digital Identity.
           </p>
           <div>
-              <button className="w-56 my-2 bg-white rounded p-2 font-semibold px-4 mr-16" >Participate on ICO</button>
-              <button className="w-56 my-2 bg-blue-200 rounded p-2 font-semibold px-4" >Save Your Idenity</button>
+              <button className="w-56 my-2 bg-white rounded-lg p-2 font-semibold px-4 mr-16 hover:bg-black hover:text-white border  transition-all duration-500 ease-out" >Participate on ICO</button>
+              <button className="w-56 my-2 bg-blue-200 rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out" >Save Your Idenity</button>
           </div>
         </div>
         <div>

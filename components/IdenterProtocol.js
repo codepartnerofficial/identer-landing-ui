@@ -49,7 +49,7 @@ const IdenterProtocol = () => {
                   </li>
                 ))}
               </ul>
-              <button className="w-64 my-2 bg-white rounded shadow-lg border p-2 font-semibold px-4 ">
+              <button className="w-64 my-2 bg-white rounded-lg shadow-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
                 Start Building
               </button>
             </div>
@@ -71,7 +71,7 @@ const IdenterProtocol = () => {
                   </li>
                 ))}
               </ul>
-              <button className="w-64 my-2 bg-white rounded shadow-lg border p-2 font-semibold px-4 ">
+              <button className="w-64 my-2 bg-white rounded-lg shadow-lg  p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
                 Whitepaper
               </button>
             </div>

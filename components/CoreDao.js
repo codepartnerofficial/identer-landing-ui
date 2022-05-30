@@ -33,11 +33,11 @@ const CoreDao = () => {
           </h2>
 
           <div className="max-w-xl flex flex-col  items-center gap-8">
-            <button className=" my-2 bg-blue-200 rounded p-2 font-semibold px-8">
+            <button className=" my-2 bg-blue-200 rounded-lg p-2 font-semibold px-8 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
               Become a DAO
             </button>
 
-            <button className=" my-2 bg-white rounded p-2 font-semibold px-8 ">
+            <button className=" my-2 bg-white rounded-lg p-2 font-semibold px-8 hover:bg-black hover:text-white border  transition-all duration-500 ease-out ">
               Affiliate with us!
             </button>
           </div>

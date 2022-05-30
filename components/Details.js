@@ -5,7 +5,7 @@ const Details = () => {
     <>
       <div id="blur-container" className="p-16 flex justify-around flex-wrap gap-4">
         <div>
-          <div className="w-56 h-16 border-2 rounded-lg border-white shadow-xl"></div>
+          <div className="w-56 h-16 border-2 rounded-lg  border-white shadow-xl"></div>
           <h3
             className="text-white text-md mt-3"
             style={{ textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
@@ -14,7 +14,7 @@ const Details = () => {
           </h3>
         </div>
         <div>
-          <div className="w-56 h-16 border-2 rounded-lg border-white shadow-xl"></div>
+          <div className="w-56 h-16 border-2 rounded-lg  border-white shadow-xl"></div>
           <h3
             className="text-white text-md mt-3"
             style={{ textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
@@ -23,7 +23,7 @@ const Details = () => {
           </h3>
         </div>
         <div>
-          <div className="w-56 h-16 border-2 rounded-lg border-white shadow-xl"></div>
+          <div className="w-56 h-16 border-2 rounded-lg  border-white shadow-xl"></div>
           <h3
             className="text-white text-md mt-3"
             style={{ textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
@@ -32,7 +32,7 @@ const Details = () => {
           </h3>
         </div>
         <div>
-          <div className="w-56 h-16 border-2 rounded-lg border-white shadow-xl"></div>
+          <div className="w-56 h-16 border-2 rounded-lg  border-white shadow-xl"></div>
           <h3
             className="text-white text-md mt-3"
             style={{ textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
