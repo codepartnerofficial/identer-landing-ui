@@ -17,8 +17,8 @@ export const navLinks = [
         route: "/dao",
     },
     {
-      name: "Developer",
-      route: "/developer",
+      name: "Management ",
+      route: "/management ",
     },
   ];
   

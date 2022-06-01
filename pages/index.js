@@ -18,18 +18,21 @@ export default function Home() {
   return (
     <>
       <div
-        style={{
-          // backgroundImage: "url(" + `/images/langingPageBg.png` + ")",
-          backgroundImage: "url(" + `/images/identerbg3.webp` + ")",
-          // backgroundImage: "url(" + `/images/identerbg2.gif` + ")",
-          backgroundPosition: "left top",
-          backgroundSize: "100%",
-          // backgroundRepeat: "no-repeat",
-          height: "100%",
-        }}
+        // style={{
+        //   // backgroundImage: "url(" + `/images/langingPageBg.png` + ")",
+        //   backgroundImage: "url(" + `/images/identerbg3.webp` + ")",
+        //   // backgroundImage: "url(" + `/images/identerbg2.gif` + ")",
+        //   backgroundPosition: "left top",
+        //   backgroundSize: "100%",
+        //   // backgroundRepeat: "no-repeat",
+        //   height: "100%",
+        // }}
         className="overflow-hidden "
-        
       >
+        <video id="background-video" autoPlay loop muted>
+          <source src="/videos/bgvideo.mp4" type="video/mp4" />
+        </video>
+
         <Navbar />
         <MobileNavbar />
         <Intro />
@@ -42,7 +45,7 @@ export default function Home() {
         <PartOfSolution />
         <CoreDao />
         <Community />
-        <Connect/>
+        <Connect />
         <Footer />
         <BottomFooter />
       </div>

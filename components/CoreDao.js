@@ -7,7 +7,7 @@ const CoreDao = () => {
       <div>
         <div className="flex flex-col items-center justify-center text-center  card-shadow-blur p-6 sm:p-12">
           <h1 className="text-white text-2xl my-2 w-full font-medium text-left">
-            The Core DAO
+            The Founder Members
           </h1>
           <div className="w-full my-12">
             <div data-aos="zoom-in" className="flex justify-center items-center lg:my-8 lg:mb-12 ">
