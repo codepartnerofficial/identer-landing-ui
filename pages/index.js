@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Community from "../components/Community";
 import Connect from "../components/Connect";
 import CoreDao from "../components/CoreDao";
@@ -29,6 +30,13 @@ export default function Home() {
         // }}
         className="overflow-hidden "
       >
+        <Head>
+          <title>IDENTER</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
         <video id="background-video" autoPlay loop muted>
           <source src="/videos/bgvideo.mp4" type="video/mp4" />
         </video>

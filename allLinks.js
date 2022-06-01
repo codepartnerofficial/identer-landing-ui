@@ -200,31 +200,31 @@ export const navLinks = [
   export const communityLinks = [
     {
       name: "Website",
-      route: "/",
+      route: "http://www.identer.org/",
     },
     {
       name: "Telegram",
-      route: "/",
+      route: "https://t.me/IDENTEROfficial",
     },
     {
       name: "Facebook",
-      route: "/",
+      route: "https://www.facebook.com/Identerchain/",
     },
     {
       name: "Twitter",
-      route: "/",
+      route: "https://twitter.com/Identer_blc?t=ppvouw0dgl1Z0DiKvG63jQ&s=09",
     },
     {
       name: "Medium",
-      route: "/",
+      route: "https://medium.com/@identer-blc",
     },
     {
       name: "Linkedin",
-      route: "/",
+      route: "https://www.linkedin.com/company/identer-blockchain-technology",
     },
     {
       name: "Tiktok",
-      route: "/",
+      route: "https://vt.tiktok.com/ZSdPcomKp/",
     },
     {
       name: "Instagram",
@@ -236,7 +236,7 @@ export const navLinks = [
     },
     {
       name: "Discord",
-      route: "/",
+      route: "https://discord.gg/rNhEwnAz84",
     },
   ];
   export const daosLinks = [

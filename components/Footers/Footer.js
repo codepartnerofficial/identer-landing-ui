@@ -75,7 +75,7 @@ const Footer = () => {
                 {communityLinks.map((community, i) => (
                   <div key={i}>
                     <Link href={`${community.route}`}>
-                      <a className="text-sm">{community.name}</a>
+                      <a target="_blank" className="text-sm">{community.name}</a>
                     </Link>
                   </div>
                 ))}
