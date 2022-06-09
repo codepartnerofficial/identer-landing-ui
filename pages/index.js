@@ -19,6 +19,7 @@ import IntroTwo from "../components/IntroTwo";
 import MobileNavbar from "../components/Navbars/MobileNavbar";
 import Navbar from "../components/Navbars/Navbar";
 import PartOfSolution from "../components/PartOfSolution";
+import RoadMap from "../components/RoadMap";
 import Service from "../components/Service";
 import Tokenomics from "../components/Tokenomics";
 
@@ -64,6 +65,7 @@ export default function Home() {
         <PartOfSolution />
         <Tokenomics />
         {/* <CoreDao /> */}
+        <RoadMap />
         <FoundingMembers />
         <Community />
         <Connect />
