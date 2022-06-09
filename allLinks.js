@@ -1,24 +1,20 @@
 // Navbar links
 export const navLinks = [
     {
-      name: "Learn",
-      route: "/learn",
+      name: "about",
+      route: "/about",
     },
     {
-      name: "Record",
-      route: "/record",
+      name: "whitepaper",
+      route: "/whitepaper",
     },
     {
-      name: "Enterprise",
-      route: "/enterprise",
+      name: "tokenomics",
+      route: "/tokenomics",
     },
     {
-        name: "DAO",
-        route: "/dao",
-    },
-    {
-      name: "Management ",
-      route: "/management ",
+        name: "roadmap",
+        route: "/roadmap",
     },
   ];
   

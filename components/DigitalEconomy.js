@@ -15,7 +15,7 @@ const DigitalEconomy = () => {
             Realigning-the-Digital-Economy
           </h3>
           <div className="roboto-font">
-            <p className="text-gray-300 max-w-2xl text-sm mt-12 mb-4 leading-6">
+            <p className="text-gray-300 max-w-lg text-sm mt-12 mb-4 leading-6">
               A fairer financial system can be enhance by adding a value.
               Identer develop a new economic model that appreciates the users
               through incentivizing rewards based on their
@@ -27,11 +27,11 @@ const DigitalEconomy = () => {
               IDENTITY {"  "} = Blockchain Technology + Weight of Value
             </h5>
           </div>
-          <div>
+          {/* <div>
             <button className="w-64 my-2 bg-white rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
               More about Enterprise
             </button>
-          </div>
+          </div> */}
         </div>
         <div>
           <img

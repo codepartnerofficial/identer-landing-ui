@@ -32,8 +32,9 @@ const InternetIdeas = () => {
                 blockchain termed as Hyperetherium Protocol.
               </p>
             </div>
-            <div className="max-w-xl flex justify-around items-center flex-wrap xl:gap-8">
-              <button className="w-64 my-2 bg-blue-200 rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
+            {/* <div className="max-w-xl flex justify-around items-center flex-wrap xl:gap-8"> */}
+            <div className="shadow">
+              {/* <button className="w-64 my-2 bg-blue-200 rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
                 Patent Your Idea
               </button>
               <button className="w-64 my-2 bg-blue-200 rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out">
@@ -41,6 +42,9 @@ const InternetIdeas = () => {
               </button>
               <button className="w-64 my-2 bg-white rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out ">
                 Developer Portal
+              </button> */}
+              <button className="w-64 my-2 bg-white rounded-lg p-2 font-semibold px-4 hover:bg-black hover:text-white border  transition-all duration-500 ease-out ">
+              Connect with us!
               </button>
             </div>
           </div>

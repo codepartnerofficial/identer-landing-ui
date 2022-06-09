@@ -30,7 +30,7 @@ const Navbar = () => {
               {navLinks.map((nlink, i) => (
                 <div key={i}>
                   <Link href={`${nlink.route}`}>
-                    <a className="font-semibold">{nlink.name}</a>
+                    <a className="font-semibold capitalize">{nlink.name}</a>
                   </Link>
                 </div>
               ))}
@@ -39,7 +39,7 @@ const Navbar = () => {
               <button
                 className=" p-2 px-4 shadow-md font-semibold bg-white text-black rounded-lg hover:bg-black hover:text-white border  transition-all duration-500 ease-out"
               >
-                Connect Wallet
+                Join our Community
               </button>
             </div>
           </div>

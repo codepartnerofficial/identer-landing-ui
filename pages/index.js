@@ -5,15 +5,22 @@ import CoreDao from "../components/CoreDao";
 import Details from "../components/Details";
 import DigitalEconomy from "../components/DigitalEconomy";
 import DigitalIdentity from "../components/DigitalIdentity";
+import DigitalIdentityTwo from "../components/DigitalIdentityTwo";
 import BottomFooter from "../components/Footers/BottomFooter";
+import BottomFooterTwo from "../components/Footers/BottomFooterTwo";
 import Footer from "../components/Footers/Footer";
+import FoundingMembers from "../components/FoundingMembers";
 import IdenterProtocol from "../components/IdenterProtocol";
+import IdenterTechnology from "../components/IdenterTechnology";
+import IdenterValues from "../components/IdenterValues";
 import InternetIdeas from "../components/InternetIdeas";
 import Intro from "../components/Intro";
+import IntroTwo from "../components/IntroTwo";
 import MobileNavbar from "../components/Navbars/MobileNavbar";
 import Navbar from "../components/Navbars/Navbar";
 import PartOfSolution from "../components/PartOfSolution";
 import Service from "../components/Service";
+import Tokenomics from "../components/Tokenomics";
 
 export default function Home() {
   return (
@@ -28,7 +35,7 @@ export default function Home() {
         //   // backgroundRepeat: "no-repeat",
         //   height: "100%",
         // }}
-        className="overflow-hidden "
+        className="overflow-hidden bg-blue-900"
       >
         <Head>
           <title>IDENTER</title>
@@ -37,25 +44,32 @@ export default function Home() {
             content="initial-scale=1.0, width=device-width"
           />
         </Head>
-        <video id="background-video" autoPlay loop muted>
+        {/* <video id="background-video" autoPlay loop muted>
           <source src="/videos/bgvideo.mp4" type="video/mp4" />
-        </video>
+        </video> */}
 
         <Navbar />
         <MobileNavbar />
-        <Intro />
-        <Details />
+        {/* <Intro /> */}
+        <IntroTwo />
+        {/* <Details /> */}
+        <IdenterValues />
         <Service />
-        <DigitalIdentity />
+        {/* <DigitalIdentity /> */}
+        <DigitalIdentityTwo />
         <InternetIdeas />
         <DigitalEconomy />
-        <IdenterProtocol />
+        {/* <IdenterProtocol /> */}
+        <IdenterTechnology />
         <PartOfSolution />
-        <CoreDao />
+        <Tokenomics />
+        {/* <CoreDao /> */}
+        <FoundingMembers />
         <Community />
         <Connect />
-        <Footer />
-        <BottomFooter />
+        {/* <Footer /> */}
+        {/* <BottomFooter /> */}
+        <BottomFooterTwo />
       </div>
     </>
   );
