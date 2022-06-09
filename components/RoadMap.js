@@ -43,7 +43,7 @@ const RoadMap = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center flex-wrap gap-8">
           {roads.map((road, i) => (
             <div key={i}>
-              <div className="flex items-start text-left  w-full max-w-lg">
+              <div data-aos="zoom-in" className="flex items-start text-left  w-full max-w-lg">
                 <div className=" m-2 my-1" >
                   <svg
                     width="20"

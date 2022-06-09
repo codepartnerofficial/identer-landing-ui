@@ -1,5 +1,7 @@
 import Head from "next/head";
+import BeChange from "../components/BeChange";
 import Community from "../components/Community";
+import CommunityTwo from "../components/CommunityTwo";
 import Connect from "../components/Connect";
 import CoreDao from "../components/CoreDao";
 import Details from "../components/Details";
@@ -37,6 +39,7 @@ export default function Home() {
         //   height: "100%",
         // }}
         className="overflow-hidden bg-blue-900"
+        // className="overflow-hidden "
       >
         <Head>
           <title>IDENTER</title>
@@ -67,8 +70,10 @@ export default function Home() {
         {/* <CoreDao /> */}
         <RoadMap />
         <FoundingMembers />
-        <Community />
-        <Connect />
+        {/* <Community /> */}
+        <BeChange/>
+        <CommunityTwo />
+        {/* <Connect /> */}
         {/* <Footer /> */}
         {/* <BottomFooter /> */}
         <BottomFooterTwo />
