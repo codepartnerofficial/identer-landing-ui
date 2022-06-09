@@ -2,19 +2,19 @@
 export const navLinks = [
     {
       name: "about",
-      route: "/about",
+      route: "about",
     },
     {
       name: "whitepaper",
-      route: "/whitepaper",
+      route: "whitepaper",
     },
     {
       name: "tokenomics",
-      route: "/tokenomics",
+      route: "tokenomics",
     },
     {
         name: "roadmap",
-        route: "/roadmap",
+        route: "roadmap",
     },
   ];
   

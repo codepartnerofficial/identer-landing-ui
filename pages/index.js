@@ -38,8 +38,8 @@ export default function Home() {
         //   // backgroundRepeat: "no-repeat",
         //   height: "100%",
         // }}
-        className="overflow-hidden bg-blue-900"
-        // className="overflow-hidden "
+        // className="overflow-hidden bg-blue-900"
+        className="overflow-hidden "
       >
         <Head>
           <title>IDENTER</title>
@@ -48,14 +48,16 @@ export default function Home() {
             content="initial-scale=1.0, width=device-width"
           />
         </Head>
-        {/* <video id="background-video" autoPlay loop muted>
+        <video id="background-video" autoPlay loop muted>
           <source src="/videos/bgvideo.mp4" type="video/mp4" />
-        </video> */}
+        </video>
 
         <Navbar />
         <MobileNavbar />
         {/* <Intro /> */}
-        <IntroTwo />
+        <div id="about">
+          <IntroTwo />
+        </div>
         {/* <Details /> */}
         <IdenterValues />
         <Service />
@@ -64,15 +66,23 @@ export default function Home() {
         <InternetIdeas />
         <DigitalEconomy />
         {/* <IdenterProtocol /> */}
-        <IdenterTechnology />
+        <div id="whitepaper">
+          <IdenterTechnology />
+        </div>
         <PartOfSolution />
-        <Tokenomics />
+        <div id="tokenomics">
+          <Tokenomics />
+        </div>
         {/* <CoreDao /> */}
-        <RoadMap />
+        <div id="roadmap">
+          <RoadMap />
+        </div>
         <FoundingMembers />
         {/* <Community /> */}
-        <BeChange/>
-        <CommunityTwo />
+        <div id="join">
+          <BeChange />
+          <CommunityTwo />
+        </div>
         {/* <Connect /> */}
         {/* <Footer /> */}
         {/* <BottomFooter /> */}
