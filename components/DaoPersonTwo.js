@@ -1,7 +1,8 @@
 import React from "react";
+import Link from "next/link";
 
 const DaoPersonTwo = ({ person }) => {
-  const { pic, name, skills } = person;
+  const { pic, name, skills, link } = person;
   return (
     <>
       <div className="relative text-white  my-8">
@@ -20,11 +21,15 @@ const DaoPersonTwo = ({ person }) => {
             ))}
           </div>
           <div>
-            <img
-              src="/images/lin.png"
-              alt="in"
-              className="w-10 absolute right-2 top-2"
-            />
+            <Link href={link}>
+              <a target="_blank">
+                <img
+                  src="/images/lin.png"
+                  alt="in"
+                  className="w-10 h-10 absolute right-2 top-2"
+                />
+              </a>
+            </Link>
           </div>
         </div>
       </div>

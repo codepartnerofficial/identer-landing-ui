@@ -1,5 +1,7 @@
 import React from "react";
 
+import Link from "next/link";
+
 const Tokenomics = () => {
   const Allocations = [
     "Developer     = 5%",
@@ -31,6 +33,18 @@ const Tokenomics = () => {
               <div>
                 <h2 className="font-medium my-1">
                   Token Name: <b>Identer</b>
+                </h2>
+                <h2 className="font-medium my-1 break-all">
+                  Token address:{" "}
+                  <b>
+                    <Link
+                      href={`https://bscscan.com/token/0x71c821B36a802e6A2ba1247c29e6aa18A2b0ca9C`}
+                    >
+                      <a target="_blank" className="text-blue-900">
+                        0x71c821B36a802e6A2ba1247c29e6aa18A2b0ca9C
+                      </a>
+                    </Link>
+                  </b>
                 </h2>
                 <h2 className="font-medium my-1">
                   Token Symbol: <b>IDT </b>

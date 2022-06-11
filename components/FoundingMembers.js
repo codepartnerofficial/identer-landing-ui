@@ -6,26 +6,31 @@ const FoundingMembers = () => {
     shadi: {
       name: "OxShadiAyuob",
       pic: "/images/shadi.png",
+      link: "https://www.linkedin.com/in/ayoubshadi/",
       skills: ["Blockchain Developer", "Financial Advisor"],
     },
     sou: {
       name: "OxSouvikMukherjee",
       pic: "/images/souvik.png",
+      link: "https://www.linkedin.com/in/souvik-mukherjee-a8203a197",
       skills: ["Blockchain Developer", "Blockchain Auditor", "MBA"],
     },
     pra: {
       name: "OxPralayMandal",
       pic: "/images/pralay.png",
+      link: "https://www.linkedin.com/in/pralay-mandal",
       skills: ["Blockchain Developer", "High Language Programming"],
     },
     raj: {
       name: "OxRajivBordoloi",
       pic: "/images/rajiv.png",
+      link: "https://www.linkedin.com/in/rajivbdelhi",
       skills: ["Project Manager", "Business Development", "MBA"],
     },
     mary: {
       name: "OxMaryIgnacio",
       pic: "/images/mary.png",
+      link: "https://www.linkedin.com/in/mary-ignacio-24b29b16b",
       skills: ["Blockchain Law", "Research and Development"],
     },
   };
